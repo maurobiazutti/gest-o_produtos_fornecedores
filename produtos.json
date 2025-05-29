@@ -1,0 +1,12 @@
+[
+  {
+    "id": "17484769541230805",
+    "nome": "cafè",
+    "descricao": "extraforte",
+    "preco": 16.5,
+    "categoria": "grãos",
+    "fornecedor_id": "1748476803046604",
+    "estoque": 50,
+    "data_cadastro": "2025-05-28"
+  }
+]
