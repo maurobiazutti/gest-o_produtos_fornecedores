@@ -1,37 +1,34 @@
-Funcionalidades Principais:
-Gestão de Fornecedores:
+# Funcionalidades Principais
 
-Cadastro com validação de CNPJ e email
-Listagem completa
-Busca por nome ou ID
-Remoção de fornecedores
+## Gestão de Fornecedores
 
-Gestão de Produtos:
+- Cadastro com validação de **CNPJ** e **email**
+- Listagem completa
+- Busca por **nome** ou **ID**
+- Remoção de fornecedores
 
-Cadastro vinculado a fornecedores
-Controle de estoque
-Busca por nome, categoria ou fornecedor
-Atualização de quantidades
-Formatação de preços
+## Gestão de Produtos
 
-Recursos Avançados:
+- Cadastro vinculado a **fornecedores**
+- Controle de **estoque**
+- Busca por **nome**, **categoria** ou **fornecedor**
+- Atualização de **quantidades**
+- Formatação de **preços**
 
-Persistência em arquivos JSON
-Validação de dados
-Sistema de IDs únicos
-Relatórios com estatísticas
-Interface de menu interativa
-Alertas para estoque baixo
+## Recursos Avançados
 
-Como usar:
+- Persistência em arquivos **JSON**
+- Validação de dados
+- Sistema de **IDs únicos**
+- Relatórios com **estatísticas**
+- Interface de **menu interativa**
+- Alertas para **estoque baixo**
 
-Salve o código em um arquivo (ex: sistema_cadastro.rb)
-Execute com: ruby sistema_cadastro.rb
-Use o menu interativo para navegar pelas opções
+---
 
-Arquivos gerados:
+# Como Usar
 
-fornecedores.json - Dados dos fornecedores
-produtos.json - Dados dos produtos
-
-O sistema é robusto, com tratamento de erros, validações e uma interface amigável. Os dados são salvos automaticamente e carregados na próxima execução.
+1. Salve o código em um arquivo (ex: `sistema_cadastro.rb`)
+2. Execute com o comando:
+   ```bash
+   ruby sistema_cadastro.rb
